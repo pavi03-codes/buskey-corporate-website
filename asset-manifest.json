@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/buskey-corporate-website/static/css/main.105c30d9.css",
+    "main.js": "/buskey-corporate-website/static/js/main.a3689b05.js",
+    "static/js/453.e2d748fa.chunk.js": "/buskey-corporate-website/static/js/453.e2d748fa.chunk.js",
+    "index.html": "/buskey-corporate-website/index.html",
+    "main.105c30d9.css.map": "/buskey-corporate-website/static/css/main.105c30d9.css.map",
+    "main.a3689b05.js.map": "/buskey-corporate-website/static/js/main.a3689b05.js.map",
+    "453.e2d748fa.chunk.js.map": "/buskey-corporate-website/static/js/453.e2d748fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.105c30d9.css",
+    "static/js/main.a3689b05.js"
+  ]
+}
