@@ -1,0 +1,203 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  z-index: 1000; 
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel-item {
+  height: 100vh; 
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-weight: bold;
+}
+
+.navbar .nav-link.active {
+  color: black;
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1); /* Initial scale: 100% */
+  }
+  50% {
+    transform: scale(1.1); /* Zoom to 110% at 50% of the animation */
+  }
+  100% {
+    transform: scale(1);  
+  }
+}
+.carousel-item img {
+  animation: zoom 13s;
+}
+.navbar {
+  border-bottom: 2px solid #ccc; 
+  position: fixed;
+}
+.sliding-caption .btn {
+  margin-right: 20px; 
+}
+.btn-width {
+  width: 150px; 
+  height: 50px;
+}
+
+.img-custom {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+  font-family: 'Montserrat';
+}
+.site-heading h2 {
+  color: #232323;
+  display: inline-block;
+  font-weight: 700;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+.site-heading h2::before {
+  background: #2154cf none repeat scroll 0 0;
+  bottom: 5px;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  width: 100px;
+}
+.site-heading h2::after {
+  background: #2154cf none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+/* h2 {
+  color: #232323;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: 'Montserrat' sans-serif;
+  letter-spacing: 0;
+  margin: 0;
+} */
+h2 {
+  margin-bottom: 15px;
+}
+.text-center {
+  text-align: center;
+}
+/* .site-heading p {
+  margin: 0;
+} */
+p {
+  color: black;
+  line-height: 26px;
+  margin: 0 0 15px;
+  text-transform: none;
+  font-weight: 400;
+}
+/* .transparent-navbar {
+  background-color: transparent !important;
+  border-color: transparent !important;
+} */
+.custom-navbar {
+  background-color: none
+}
+
+@media (max-width: 768px) {
+  .custom-navbar {
+    background-color: white !important; /* Change color to white on smaller screens */
+  }
+}
+footer {
+  background-color: #00081d;
+  color: white;
+}
+.footer-bottom {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  margin-top: 80px;
+  padding: 30px 0;
+}
+.footer-bottom p a {
+  color: #2154cf;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
